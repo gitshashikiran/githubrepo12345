@@ -4,11 +4,10 @@
 # https://aka.ms/yaml
 
 trigger:
-- master
-
+ master
 pool:
-  name: 'Default'
-  vmImage: 'DESKTOP-DND9AAV'
+  name: 'Azure Pipelines'
+  vmImage: 'windows latest'
 
 steps:
 - script: echo Hello, world!
